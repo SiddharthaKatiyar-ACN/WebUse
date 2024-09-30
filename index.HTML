@@ -80,7 +80,7 @@ function timestamp() { var response = document.getElementById("g-recaptcha-respo
 
 function recaptcha_callback(){
 
-$('.button').prop("disabled", false);
+document.getElementById("submitBtn").disabled = true;
 
 }
 </script>
